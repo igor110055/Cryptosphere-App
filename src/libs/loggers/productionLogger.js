@@ -18,7 +18,7 @@ const options = {
     file: {
         level: config['logConfig'].logLevel,
         filename: `${appRoot}/${config['logConfig'].logFolder}/${config['logConfig'].logFile}`,
-        datePattern: 'YYYY-MM-DD-HH',
+        datePattern: 'YYYY-MM-DD',  // 'YYYY-MM-DD-HH'
         handleExceptions: true,
         json: true,
         maxsize: 5242880, // 5MB
