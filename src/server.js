@@ -121,7 +121,7 @@ app.use(passport.session());                    		// for serialize and deseriali
 // });
 
 // Redirect favicon
-app.use('/favicon.ico', express.static(`${publicDirPath}/images/favicon.png`)); 
+app.use('/favicon.ico', express.static(`${publicDirPath}/images/favicon.ico`)); 
 
 ///////////////////////////////////////////////////////////////////////////////
 // routes:

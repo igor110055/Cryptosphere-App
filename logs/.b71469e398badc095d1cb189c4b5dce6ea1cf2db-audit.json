@@ -6,9 +6,9 @@
     "auditLog": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\10_cryptosphere\\logs\\.b71469e398badc095d1cb189c4b5dce6ea1cf2db-audit.json",
     "files": [
         {
-            "date": 1655027438959,
-            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\10_cryptosphere\\logs\\CryptosphereApp-2022-06-12-10.log",
-            "hash": "992809c09d2df1f1cf5a50cac8b78d62093d8bbe92f9b3fbaca560cb145ac0b4"
+            "date": 1655031217875,
+            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\10_cryptosphere\\logs\\CryptosphereApp-2022-06-12-11.log",
+            "hash": "9a99d15842cc0ff263b4cc8598b3884d9059538cbcac460c0b2d4f37fdbb93e1"
         }
     ],
     "hashType": "sha256"
