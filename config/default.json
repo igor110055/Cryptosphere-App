@@ -1,0 +1,7 @@
+{
+    "logConfig": {
+        "logFolder": "logs",
+        "logFile": "CryptosphereApp-%DATE%.log",
+        "logLevel": "info"
+    }
+}
