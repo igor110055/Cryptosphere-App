@@ -17,6 +17,11 @@ const router = express.Router();
 
 const { 
     getHomePage,
+    getTradingViewDemo,
+    getCoinViewDemo,
+    coinviewBuy,
+    coinviewSell,
+    coinviewHistory,
     // getWorkspacePage,
     // getAboutPage,
     // getContactPage,
@@ -32,7 +37,13 @@ const {
 
 
 // routes
-router.get('/',             getHomePage);
+router.get('/',          getHomePage);
+router.get('/tvdemo',    getTradingViewDemo);
+router.get('/coinview',  getCoinViewDemo);
+router.post('/coinview/buy', coinviewBuy);
+router.post('/coinview/sell', coinviewSell);
+router.get('/coinview/history', coinviewHistory);
+
 // router.get('/workspace',    webAuth, webAdminRole, getWorkspacePage);
 // router.get('/about',        getAboutPage);
 // router.get('/contact',      getContactPage);

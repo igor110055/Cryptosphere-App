@@ -16,6 +16,7 @@ const registerHbsHelpers = (hbs) => {
             case '==':
                 return (v1 == v2) ? options.fn(this) : options.inverse(this);
             case '===':
+                // console.log(v1, v2);
                 return (v1 === v2) ? options.fn(this) : options.inverse(this);
             case '!=':
                 return (v1 != v2) ? options.fn(this) : options.inverse(this);

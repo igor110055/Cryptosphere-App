@@ -36,12 +36,13 @@ exports.errorHandler = (err, req, res, next) => {
     // logger.error(`${err.status || 500} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
 
     switch (statusCode) {
-        // case 404:
-        //     // render 404 
-        //     return res.render('404', {  
-        //         title: '404',
-        //         errorMessage: `Not Found - ${req.originalUrl}`
-        //     });
+        case 404:
+            // render 404 
+            return res.render('exceptions/404', {  
+                title: '404',
+                errorMessage: `Not Found - ${req.originalUrl}`,
+                layout: false
+            });
         default:
             return res.json({
                 message: err.message,

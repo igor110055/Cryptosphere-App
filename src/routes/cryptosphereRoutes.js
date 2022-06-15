@@ -7,9 +7,13 @@
 const express = require('express');
 const router = express.Router();
 
-// const { 
-//     startScheduler, activateScheduler, passivateScheduler, stopScheduler, getSchedulerState
-// } = require('../controllers/schedulerController');
+const { 
+    getTradingViewDemoData,
+    //startScheduler, activateScheduler, passivateScheduler, stopScheduler, getSchedulerState
+} = require('../controllers/cryptosphereController');
+
+
+router.route('/:symbol/:interval').get(getTradingViewDemoData);
 
 // router.route('/start').get(startScheduler);
 // router.route('/activate').get(activateScheduler);
